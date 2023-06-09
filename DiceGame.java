@@ -8,7 +8,7 @@ class DiceGame{
 	int a = (rand.nextInt(6) + 1);
 	int b = (rand.nextInt(6) + 1);
 	System.out.println("What is your name?");
-	System.out.println("> ");
+	System.out.print("> ");
 	String name = sc.next();
 	System.out.println("Hello, " + name + "!");
 	System.out.println("Rolling the dice...");
